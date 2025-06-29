@@ -143,7 +143,7 @@ section button {
 
 
 
-.what_we_do .feature {
+.feature {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -151,7 +151,7 @@ section button {
     width: 207px;
 }
 
-.what_we_do .preef {
+.preef {
     width: 637px;
     height: 184px;
     text-align: center;
@@ -168,7 +168,11 @@ section button {
     font-size: 32px;
 }
 
-.what_we_do .icons-section {
+.ourResult .preef {
+    color: white;
+}
+
+.icons-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -176,21 +180,43 @@ section button {
     padding: 58px 0;
 }
 
-.what_we_do .icons-section .feature {
+.icons-section .feature {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 193px;
 }
 
-.what_we_do .icons-section .icon {
+.icons-section .icon {
     color: var(--main-color);
 }
 
-.what_we_do .icons-section .content {
+.icons-section .content {
     font-size: 14px;
     text-align: center;
     line-height: 26px;
+}
+
+.ourResult .icons-section .content {
+    position: relative;
+    color: white;
+    top: -100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ourResult .icons-section .content .number {
+    font-weight: bold;
+    font-size: 46px;
+}
+
+.ourResult {
+    background-image: url("./src/images/images/headphones_hero_2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+
 }
 
 @media(max-width:480px) {
